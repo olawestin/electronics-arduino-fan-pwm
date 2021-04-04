@@ -45,7 +45,7 @@ If you can get hold of a fan header then you can place it on a breadboard and co
 
 ## Software
 
-* Install the Arduino IDE.
+* Install the [Arduino IDE](https://www.arduino.cc/en/software).
 
 * Install the PWM library
   * Download the latest version from http://code.google.com/p/arduino-pwm-frequency-library/downloads/list.
