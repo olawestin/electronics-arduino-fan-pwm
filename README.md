@@ -25,7 +25,7 @@ You need:
 
 * An Arduino board. Most board types should work, but for this example I will assume that you have an Arduino Uno or similar board.
 * A 12V PWM controllable fan. Most standard 3 or 4 pin computer fans should work.
-* A 12V power supply. Make sure that the connector matches in size and polarity with the Arduino power connector (5.5 mm, center positive). A typical computer fan draws well below 1A so any power supply that can provide at least 1A should be fine. Look for markings similar to this: ![12V DC symbols](Power-12VDC-1A-positive-center.png)
+* A 12V power supply. Make sure that the connector matches in size and polarity with the Arduino power connector (5.5 mm, center positive). A typical computer fan draws well below 1A so any power supply that can provide at least 1A should be fine. Look for markings similar to this: ![12V DC symbols](images/Power-12VDC-1A-positive-center.png)
 * Connector wires. Use male-male connectors for connecting the Arduino to either the fan connector or to a breadboard.
 * A USB cable.
 
@@ -38,11 +38,11 @@ Optionally:
 
 You can connect the fan directly to the Arduino board. This works fine but the connector wires might not fit the fan connector perfectly. You may want to stablilize the connection with some electrical insulation tape.
 
-![Wiring directly](fan-pwm-basic_bb.svg)
+![Wiring directly](images/fan-pwm-basic_bb.svg)
 
 If you have a fan header you can place it on a breadboard and connect that to the Arduino instead.
 
-![Wiring via a breadboard](fan-pwm-breadboard_bb.svg)
+![Wiring via a breadboard](images/fan-pwm-breadboard_bb.svg)
 
 ## Software
 
@@ -73,7 +73,7 @@ If you have a fan header you can place it on a breadboard and connect that to th
 * To control the fan speed, type a character in the text box at the top of the window and click Send. The program reacts to the characters '0' to '9' which are mapped to a PWM level between 0 and 255. All other characters are ignored.
   * Note that the speed is not necessarily linear to the PWM level. Depending on the fan a PWM level of 0 may mean a completely stopped fan or a low rotation speed.
 
-![Serial Monitor window](pwm-serial-monitor.png)
+![Serial Monitor window](images/pwm-serial-monitor.png)
 
 ## Other control mechanisms
 
