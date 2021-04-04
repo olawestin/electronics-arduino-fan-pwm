@@ -9,6 +9,7 @@ This example uses a [PWM library by Sam Knight](https://forum.arduino.cc/index.p
 ## Theory
 
 The pins of a 4-pin computer fan are as follows:
+
 * Black - Ground
 * Yellow - +12V (the fan might also work with lower voltages)
 * Green - Tachometer, one pulse per full rotation of the fan
@@ -48,7 +49,7 @@ If you can get hold of a fan header then you can place it on a breadboard and co
 * Install the [Arduino IDE](https://www.arduino.cc/en/software).
 
 * Install the PWM library
-  * Download the latest version from http://code.google.com/p/arduino-pwm-frequency-library/downloads/list.
+  * Download the latest version from <http://code.google.com/p/arduino-pwm-frequency-library/downloads/list>.
   * Start the Arduino IDE.
   * Go to the menu item _Sketch - Include Library - Add .ZIP Library_.
   * Navigate to the downloaded zip file and add it to the IDE.
@@ -84,7 +85,7 @@ Note that we connected the tachometer pin to the Arduino even though we do not u
 
 The following code increases the variable `tachCount` for every full rotation. In the main loop you can use this to calculate RPM values.
 
-```
+```c
 #define TACH_PIN 2
 
 volatile long tachCount = 0;
