@@ -50,9 +50,10 @@ If you have a fan header you can place it on a breadboard and connect that to th
 
 * Install the PWM library
   * Download the latest version from <http://code.google.com/p/arduino-pwm-frequency-library/downloads/list>.
-  * Start the Arduino IDE.
-  * Go to the menu item _Sketch - Include Library - Add .ZIP Library_.
-  * Navigate to the downloaded zip file and add it to the IDE.
+  * Unzip the downloaded file.
+  * Copy the PWM subdirectory into the _libraries_ directory in the Arduino user sketchbook location.
+    * To find or set the user sktechbook location, open the menu _File - Preferences_ in the Arduino IDE.
+    * On Windows this will by default be `%HOMEPATH%\Documents\Arduino`.
 
 ## Setup
 
