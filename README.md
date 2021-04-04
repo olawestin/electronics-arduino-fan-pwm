@@ -25,7 +25,7 @@ You need:
 
 * An Arduino board. Most board types should work, but for this example I will assume that you have an Arduino Uno or similar board.
 * A 12V PWM controllable fan. Most standard 3 or 4 pin computer fans should work.
-* A 12V power supply. Make sure that the connector matches in size and polarity with the Arduino power connector (5.5 mm, center positive).
+* A 12V power supply. Make sure that the connector matches in size and polarity with the Arduino power connector (5.5 mm, center positive). A typical computer fan draws well below 1A so any power supply that can provide at least 1A should be fine. Look for markings similar to this: ![12V DC symbols](Power-12VDC-1A-positive-center.png)
 * Connector wires. Use male-male connectors for connecting the Arduino to either the fan connector or to a breadboard.
 * A USB cable.
 
